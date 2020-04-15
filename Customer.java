@@ -7,6 +7,8 @@ public class Customer extends User {
     
     public Customer(String usr,String pass){
         super(usr,pass);
+        this.name=name;
+        this.email=email;
     }
     public static void main(String[] args){
         User a = new Customer("tasin","12345678");
@@ -15,4 +17,3 @@ public class Customer extends User {
         b.display();
     }
 }
- 
